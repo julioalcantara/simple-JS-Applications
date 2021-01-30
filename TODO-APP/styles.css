@@ -1,0 +1,19 @@
+.content {
+  height: 150px;
+  width: 700px;
+  border: solid 4px black;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  margin-left: 20px;
+}
+
+.list {
+  display: flex;
+}
