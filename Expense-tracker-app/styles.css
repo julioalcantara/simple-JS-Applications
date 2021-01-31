@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+form {
+  min-height: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin: 4rem 0rem;
+
+  font-size: 1.5rem;
+}
+
+.para {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+form,
+input {
+  height: 1.5rem;
+  padding: 0.2rem;
+}
+
+form,
+label {
+  margin-left: 1rem;
+}
+
+.add-button {
+  height: 2rem;
+  width: 10rem;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.items-list {
+  width: 60vw;
+  border-collapse: collapse;
+  margin: 2rem auto;
+}
+
+td,
+th {
+  border: solid 1px #dddddd;
+  text-align: start;
+  padding: 0.5rem;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.delete-btn {
+  cursor: pointer;
+}
