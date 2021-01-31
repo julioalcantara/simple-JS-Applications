@@ -8,34 +8,21 @@
 </head>
 
 <body>
-    <div class="main">
-        <div class="content">
-            <div>
-                <h1>TO-DO List</h1>
-            </div>
-            
-            <div class="table">
-                <form class="add_items">
-                    <label for= "item">Add Item:</label>
-                    <input type= "text" id="userInput" onFocus="this.value=''" value= "" >
-                    <input type = "reset" value = "Clear" >
-                </form>
+    <header>
+        <h1>TO-DO List</h1>
+    </header>
+    
+    <form class="todo-form">
+        <label for= "item">Add Item:</label>
+        <input type= "text" id="todo-input" onFocus="this.value=''" value= "" >
+        <button type = "reset">Clear</button>
+        <button id = "tudo-submit__btn">Submit</button>
+    </form>
 
-                <div class="btn">
-                    <button onclick="addli()" id = "submitBTN">Submit</button>
-                    <!-- <input type = "submit" onclick="submitButton()" value = "Submit" id = "submitBTN"> -->
-                </div>
-            </div>  
-            
-        </div>
-
-        
-        <ul id= "items_list">
-            
-        </ul>
-
+    <div class="todo-container">
+        <ul class= "todo-list"></ul>
     </div>
-
-    <script src="index2.js"></script>
+    
+    <script src="index.js"></script>
 </body>
 </html>
