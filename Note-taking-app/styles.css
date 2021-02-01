@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+.form {
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header {
+  margin: 1rem 0;
+}
+
+.paragraph {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.title-label {
+  font-size: 1.2rem;
+}
+
+.note-title {
+  font-size: 1rem;
+  padding: 0.5rem;
+}
+
+.note-label {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+}
+
+.new-note__title {
+  margin-bottom: 0.2rem;
+  width: 7rem;
+  overflow: hidden;
+}
+
+.note-input {
+  min-width: 20vw;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+}
+
+.add-button {
+  margin: 1rem;
+  padding: 0.5rem 4rem;
+}
+
+.notes-container {
+  margin: auto;
+  width: 60vw;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.note-items {
+  margin: 1rem 0.5rem;
+  padding: 0.5rem;
+}
+
+.new-note {
+  padding: 0.5rem;
+  width: 7rem;
+  height: 8.3rem;
+  border: 1px solid gray;
+  overflow-wrap: break-word;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+}
+
+.buttons-div {
+  margin-top: 0.2rem;
+}
+
+.read-more__btn {
+  margin-top: 0.5rem;
+}
